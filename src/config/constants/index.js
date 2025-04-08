@@ -4,8 +4,8 @@ const { NODE_ENV = "production" } = process.env
 const { hostname } = window.location
 
 const servers = {
-  local: "http://localhost:3021",  
-  customDev: "https://react.customdev.solutions:3021",
+  local: "http://13.60.66.94/api",  
+  customDev: "http://13.60.66.94/api",
   live: "https://grocost.app:3025"
 }
 
