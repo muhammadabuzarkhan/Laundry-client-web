@@ -6,7 +6,7 @@ import { FaCheckCircle } from "react-icons/fa";
 
 function ServicesCard({ item }) {
   const navigate = useNavigate();
-  const Image_URL = "https://react.customdev.solutions:3021"
+  const Image_URL = "http://13.60.66.94/api"
  
 
   return (
@@ -25,6 +25,7 @@ function ServicesCard({ item }) {
         bordered={false}
       >
         <p>
+
           <strong>{"From"+" "+"£"+item.price}</strong>
           {" "}
              Price Per { item.priceDescription}
