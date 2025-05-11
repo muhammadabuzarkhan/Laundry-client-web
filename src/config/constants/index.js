@@ -4,9 +4,9 @@ const { NODE_ENV = "production" } = process.env
 const { hostname } = window.location
 
 const servers = {
-  local: "http://13.60.66.94/api",  
-  customDev: "http://13.60.66.94/api",
-  live: "https://grocost.app:3025"
+  local: "https://cardifflaunderette.co.uk/api",  
+  customDev: "https://cardifflaunderette.co.uk/api",
+  live: "https://cardifflaunderette.co.uk/api"
 }
 
 
