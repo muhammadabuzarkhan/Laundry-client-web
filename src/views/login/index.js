@@ -146,32 +146,7 @@ function Login() {
               </Form.Item>
             </Form>
             <Divider>OR</Divider>
-            <div className="social-imgs">
-              <Link>
-                <Image
-                  preview={false}
-                  src={ImageUrl("google-icon.png")}
-                  alt="paymentcards"
-                />
-                <p>Google</p>
-              </Link>
-              <Link>
-                <Image
-                  preview={false}
-                  src={ImageUrl("apple-icon.png")}
-                  alt="paymentcards"
-                />
-                <p>Apple</p>
-              </Link>
-              <Link>
-                <Image
-                  preview={false}
-                  src={ImageUrl("fb-icon.png")}
-                  alt="paymentcards"
-                />
-                <p>Facebook</p>
-              </Link>
-            </div>
+          
             <div
               className="already-account-text"
               style={{ textAlign: "center" }}
